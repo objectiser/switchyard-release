@@ -12,13 +12,13 @@
  - See the License for the specific language governing permissions and
  - limitations under the License.
  -->
-<module xmlns="urn:jboss:module:1.0" name="org.apache.xmlgraphics">
+<module xmlns="urn:jboss:module:1.0" name="batik">
 
     <resources>
-        <resource-root path="batik-anim-${version.batik}.jar"/>
+        <!-- resource-root path="batik-anim-${version.batik}.jar"/ -->
         <resource-root path="batik-awt-util-${version.batik}.jar"/>
         <resource-root path="batik-bridge-${version.batik}.jar"/>
-        <resource-root path="batik-codec-${version.batik}.jar"/>
+        <!-- resource-root path="batik-codec-${version.batik}.jar"/ -->
         <resource-root path="batik-css-${version.batik}.jar"/>
         <resource-root path="batik-dom-${version.batik}.jar"/>
         <resource-root path="batik-ext-${version.batik}.jar"/>
